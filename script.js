@@ -228,6 +228,7 @@ let num = `${(n*i)+j+1}`;
         knightTour(0,0,1);
         })
     }
+             if(document.querySelector(`.num-${1}`).textContent==1){
             btn.style.display="none";
             btnPlay.style.display="none";
             await horseplay(0,0);
@@ -255,6 +256,10 @@ let num = `${(n*i)+j+1}`;
             }
     )
     btn.style.display="inline";
+    btn.style.display="inline";
+        }else{
+            console.log("please start the first column with 1");
+        } 
     });
 
     
@@ -286,6 +291,7 @@ btn.addEventListener("click", () => {
     getNum();
 });
 getNum();
+
 
 
 
