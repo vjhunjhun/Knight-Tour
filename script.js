@@ -165,7 +165,7 @@ let num = `${(n*i)+j+1}`;
        currPos.style.backgroundImage = "url('./horse.png')";
         currPos.style.backgroundSize = "cover";
        currPos.style.backgroundPosition = "center";
-       await new Promise(resolve=> setTimeout(resolve,200));
+       await new Promise(resolve=> setTimeout(resolve,500));
        currPos.textContent = txt;
     currPos.style.backgroundImage = "";
         }
@@ -228,7 +228,7 @@ let num = `${(n*i)+j+1}`;
         knightTour(0,0,1);
         })
     }
-             if(document.querySelector(`.num-${1}`).textContent==1){
+        if(document.querySelector(`.num-${1}`).textContent==1){
             btn.style.display="none";
             btnPlay.style.display="none";
             await horseplay(0,0);
@@ -291,7 +291,6 @@ btn.addEventListener("click", () => {
     getNum();
 });
 getNum();
-
 
 
 
