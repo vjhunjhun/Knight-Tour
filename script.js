@@ -37,7 +37,7 @@ async function choice() {
      btn2.style.backgroundColor="white";
     btn1.style.fontSize="20px";
     btn2.style.fontSize="20px";
-    btn2.style.marginLeft="0.5rem";
+    btn2.style.marginLeft="1rem";
     console.log(h);
     ht.insertAdjacentElement("afterend",btn1);
     btn1.insertAdjacentElement("afterend",btn2);
@@ -302,6 +302,7 @@ btn.addEventListener("click", () => {
     getNum();
 });
 getNum();
+
 
 
 
