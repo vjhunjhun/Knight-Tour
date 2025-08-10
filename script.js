@@ -21,6 +21,7 @@ function getN(){
                 btn.style.borderRadius="1rem"; 
                 btn.style.display="inline";
                 btn.style.backgroundColor="white";
+                btn.style.fontSize="20px";
                 h4.insertAdjacentElement("afterend",btn);
                 resolve(key);
             }
@@ -34,6 +35,8 @@ async function choice() {
     btn2.innerText="No";
      btn1.style.backgroundColor="white";
      btn2.style.backgroundColor="white";
+    btn1.style.fontSize="20px";
+    btn2.style.fontSize="20px";
     console.log(h);
     ht.insertAdjacentElement("afterend",btn1);
     btn1.insertAdjacentElement("afterend",btn2);
@@ -61,6 +64,7 @@ async function getNum(){
                 btn.style.borderRadius="1rem"; 
                 btn.style.display="inline";
             btn.style.backgroundColor="white";
+              btn.style.fontSize="20px";
                 h4.insertAdjacentElement("afterend",btn);
             n=5;
             c=true;
@@ -153,6 +157,7 @@ for(let i=0;i<n;i++){
     btnPlay.style.borderRadius="1rem"; 
     btnPlay.style.display="block";
     btnPlay.style.backgroundColor="white";
+          btnPlay.style.fontSize="20px";
     btnPlay.style.marginTop="1rem";
     console.log(btnPlay);
     console.log(rstbtn);
@@ -296,6 +301,7 @@ btn.addEventListener("click", () => {
     getNum();
 });
 getNum();
+
 
 
 
